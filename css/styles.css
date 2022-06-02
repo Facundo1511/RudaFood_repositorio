@@ -21,11 +21,11 @@
         .logo  { 
             margin: auto;
         }
-        nav.menu {
+      /* nav.menu {
             display: table-caption;
             height: 10%;
             width: 100%;
-        }
+        } */ 
     
         ul {
             color:white!important;
