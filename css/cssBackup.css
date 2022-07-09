@@ -139,7 +139,7 @@
          gap: 10px;
         
      
-     
+
       
          margin: 0;
          padding: 0;
@@ -151,11 +151,10 @@
          width: 100vw;
          display: grid;
          grid-template-columns: repeat(3, 2fr)
-         grid-template-rows: repeat(3, 2fr) ;
-         gap: 10px
-     
-     }
-      .burger1 {
+         grid-template-rows repeat(3, 2fr);
+       }
+      
+       .burger1 {
          border-color: aliceblue;
      
      }
