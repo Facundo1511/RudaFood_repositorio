@@ -1,11 +1,17 @@
 //maps
-$colores-redes:(twitter:#00acee,facebook:#3b5998,instagram:#dd2a7b,youtube:#c4302b,whatsapp:#00bb2d,tiktok:#69c9d0);
+$colores-redes:(
+    twitter:#00acee,
+    facebook:#3b5998,
+    instagram:#dd2a7b,
+    youtube:#c4302b,
+    whatsapp:#00bb2d,
+    tiktok:#69c9d0
+);
 
 //condiconales
- $color-primario:black;
- $color-secindario:beige;
- $color-texto-primario:white;
- $color-texto-secundario:black;
+$color-primario: black;
+$color-secindario: beige;
+$color-texto-primario: white;
+$color-texto-secundario: black;
 
- $colores-dark:(primary:black,text red);
- 
+$colores-dark:(primary:black,text: red);

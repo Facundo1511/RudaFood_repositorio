@@ -16,41 +16,19 @@
 <body>
  <div class="grid-container" $theme:dark; >
  
-  <header>
-    <!--LOGO-->
-   
-    <!--<div class="banner-principal">-->
-      <!--<a href="/Ruda-Food/index.html"> <img src="imagenes/logo-white.png" alt="logo-white.png" style="max-width: 100%; height:auto"></a>-->
-   
-
-      </div>
-    <div class="wrapper"></div>
-     <!--<nav class="menu">
-      <ul>
-        <li><a href="./Ruda-Food/index.html">Inicio</a></li>
-        <li><a href="./Ruda-Food/html/menu.html" target="_blank">Menú</a></li>
-        <li><a href="./Ruda-Food/html/contacto.html">Contacto</a></li>
-        <li><a href="./Ruda-Food/html/sobre-nostros.html">Sobre nosotros</a></li>
-        <li><a href="./Ruda-Food/html/galeria.html">Galeria</a></li>
-      </ul>
-
-    </nav>
-  </div> -->
-  <nav class="navbar navbar-expand-lg bg-light">
-   
-    <div class="container-fluid">
+  <header class="header">
+    <nav class="navbar navbar-expand-lg bg-light">
+       <div class="container-fluid">
       
-      <a class="navbar-brand" href="/index.html">
-        <img src="imagenes/logo-white.png" alt="logo-white.png" style="max-width: 100%; height:auto" alt="">
+      <a class="navbar-brand__logo  " href="/index.html">
+        <h1 class="header_logo">Ruda<br/><b>Food</b></h1>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item1">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
+         
           <li class="nav-item2">
             <a class="nav-link" href="./html/menu.html" target="_blank">Menú</a>
           </li>
@@ -59,7 +37,7 @@
             <a class="nav-link" href="./html/contacto.html">Contacto</a>
           </li>
           <li class="nav-item4">
-            <a class="nav-link" href="./html/sobre-nostros.html">Sobre nosotros</a></li>
+            <a class="nav-link" href="./html/sobre-nostros.html">Nosotros</a></li>
           </li>
           <li class="nav-item5">
             <a class="nav-link" href="./html/galeria.html">Galeria</a>
@@ -71,7 +49,6 @@
   </nav>
     </header>
   
-  </header>
 
   <main>
     <h1>Ruda Food</h1>
@@ -80,11 +57,11 @@
 
     <!--<div><img src="imagenes/imagen1.jpg" alt="imagen1.jpg" align="right" width="800"></div><br>
 <div><input type="submit" value="Menú"></div> <br>
-<img src="imagenes/imagen2.jpg" alt="imagen2.jpg" width="100%">-->
+<img src="imagenes/imagen2.jpg" alt="Imagen del banner hamburguesa.jpg" width="100%">-->
 
 
     <div class="button-container">
-      <img src="imagenes/imagen1.jpg" alt="imagen2.jpg" width="100%" style="max-width: 100%; height:auto">
+      <img src="imagenes/imagen1.jpg" alt="Imagen de hamburgesa.jpg" width="100%" style="max-width: 100%; height:auto">
      <div class="boton-menu"> <a href="html/menu.html" alt="ver-menu">MENU</a></div></div>
     </div>
   </main>
@@ -93,45 +70,33 @@
 
 
 
-  <footer class=¨pie-pagina¨>
+  <footer class="footer">
+<main class="contenedor__footer">
+  
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        <a  href="#">Instagram</a>
 
-    <figure class="box">
-      <div class="red-social">
-        <a href="index.html"> <img src="imagenes/logo-white.png" alt="logo-white.png"
-            style="width:50px; float: left;"></a>
+    
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+        </svg>
+        <a href="#"> Facebook</a>
 
+      
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+          <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+        </svg>
+        <a  href="#">Twitter</a>
 
-        <h2 style="color:black; font-size: 15px;">SEGUINOS</h2>
-       
-         <!-- <button class="btn--whatsapp"><img src="imagenes/logo-wpp.png" alt="logo-wpp" width="2%"></button>
-         <button class="btn--instagram"><img src="imagenes/logo-instagram.jpg" alt="logo-instagram" width="2%"></button>
-         <button class="btn--facebook"><img src="imagenes/logo-fb.jpg" alt="logo-fb" width="2%"></button>--> 
-         
-         
-         <!--<form>
-           <a href="https://web.whatsapp.com/">
-         <imput type="button" value="click here" class="btn--whatsapp">WSP></imput> 
-        </a>
-        </form>
-        <form>
-          <a href="https://www.instagram.com/">
-        <imput type="button" value="click here" class="btn--whatsapp">IG></imput> 
-       </a>
-       </form><form>
-        <a href="https://www.facebook.com/">
-      <imput type="button" value="click here" class="btn--whatsapp">Facebook></imput> 
-     </a>
-     </form>-->
-         
-    <button class="btn--whatsapp">WSP</button>
-    <button class="btn--intagram">IG</button>
-    <button class="btn--facebook">Facebook</button>
-      </div>
-    </figure>
-    </div>
-
-
-
+  </main>
+      <p class="pie">Todos los derechos reservados. Facundo Betarte - RudaFood</p>
 
   </footer>
 
