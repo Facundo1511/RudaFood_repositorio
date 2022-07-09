@@ -255,47 +255,7 @@ footer {
     @include sizes(200px, 150px)
 }
 
-//extend  y maps 
-button {
-    width: 100px;
-    height: 50px;
-    background-color: beige;
-    color: black;
-    border-radius: 10px;
-}
 
-@each $redSocial in twitter,
-instagram,
-tiktok,
-facebook {
-    .#{redSpcial}-icon {
-        background-image: url('/imag/#{redSocial}.png');
-        height: 520px;
-    }
-
-}
-
-@each $red,
-$color in $colores-redes {
-
-    .btn--#{$color} {
-        @extend button;
-        background-color: $color;
-        color: black;
-    }
-}
-
-//maps get
-.texto-dark{
-   color:map-get($colores-dark,text)
-}
-
-@media screen and (max-width:320px) {
-    .seguinos {
-      
-      font-size: 10px;
-    }
-}
  /* CONTACTO */
 
     /** Utilidades **/
